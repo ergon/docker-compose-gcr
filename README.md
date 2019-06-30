@@ -1,2 +1,2 @@
 # docker-compose-gcr
-docker-compose container with integrated docker-credential-gcr helper tool
+This Git repo hosts a Docker image containing the official docker/compose image with the [docker-credential-gcr](https://github.com/GoogleCloudPlatform/docker-credential-gcr) (Google Cloud Platform) helper tool installed. The docker-credential-gcr helps with authenticating for the project internal docker registry when using VM instances running [Container-Optimized OS](https://cloud.google.com/community/tutorials/docker-compose-on-container-optimized-os).

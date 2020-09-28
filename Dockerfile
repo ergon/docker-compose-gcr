@@ -1,4 +1,4 @@
-FROM docker/compose:1.25.0-rc1-alpine
+FROM docker/compose:alpine-1.27.4
 
 ENV DOCKER_CREDENTIAL_GCR_VERSION 1.5.0
 
